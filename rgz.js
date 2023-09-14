@@ -2,14 +2,19 @@ function hash(){
     let a = 0x7a3f1532df99868afbe314513f6acd0an % 8n;
 }
 
-function menuCheck(id){
-    try{
-        let block = document.getElementById(id).getElementsByTagName('a');
-        let url = document.location.href;
-        for (let i=0; i<block.length; i++){
-            if (url==block[i].href){
-                block[i].className = ' chosenPage';
-            }
-        }
-    }catch(e){}
+let date = [
+    '28.04.2023', '27.04.2023', '26.04.2023', '25.04.2023', '24.04.2023', '21.04.2023', 
+    '20.04.2023', '19.04.2023', '18.04.2023', '17.04.2023', '14.04.2023', '13.04.2023', 
+    '12.04.2023', '11.04.2023', '10.04.2023', '07.04.2023', '06.04.2023', '05.04.2023', 
+    '04.04.2023'
+]
+
+let price = [
+    352.50, 358.00, 362.10, 362.40, 365.20, 358.60, 358.60, 360.40, 362.00, 
+    359.30, 356.10, 359.10, 358.10, 352.20, 355.10, 353.70, 350.90, 353.50, 
+    349.70 
+]
+
+function countMax() {
+    document.getElementById(maxBlock).innerHTML = 'Максимальная цена: ' + Math.max(price);
 }

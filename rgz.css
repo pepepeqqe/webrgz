@@ -9,6 +9,15 @@ a {
     color: black;
     text-decoration: none;
 }
+footer {
+    width: 100%;
+    border-top: 3px solid;
+    border-color: lightgrey;
+    height: 50px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 3px;
+}
 a:hover {
     color:lightgray;
 }
@@ -38,10 +47,50 @@ a:hover {
     transition: all 0.3s;
     list-style-type: none;
     color: black;
+    margin-left: -10px;
 }
 .mainText {
     margin: 20px 50px 20px 50px;
     font-size: 16pt;
-    display: block;
+}
+.contacts {
+    font-size: 12pt;
+}
+.phone {
+    text-decoration: underline; 
+    font-size: 14; 
+    margin: 5px 0 5px 0; 
+    background-color: gray; 
+    color: white; 
+    border-radius: 5px; 
+    text-align: center;
+}
+.finBlock {
+    background-color: rgb(19, 5, 82);
+    color: rgb(165, 241, 50);
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: green;
+    font-size: 20pt;
+    padding: 10px;
+    margin: 20px;
+}
+.finTable {
+    background-color: rgb(19, 5, 82);
+    color: rgb(165, 241, 50);
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: green;
+    font-size: 20pt;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 0;
+    text-align: center; 
+    width: 40%;
+    display: inline-block;
+}
+footer {
+    font-size: 20px;
+    height: 60px;
 }
 

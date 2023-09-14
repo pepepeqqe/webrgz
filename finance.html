@@ -17,17 +17,113 @@
         <div class="menu" id="menuSelect">
             <img src="https://toplogos.ru/images/logo-fix-price.png" height="50">
             <ul> 
-                <li class="menuBlock"><a style="color: black;" href='index.html'>О компании</a></li>
-                <li class="menuBlock"><a style="color: black;" href='contacts.html'>Основные финансовые показатели</a></li>
-                <li class="menuBlock"><a style="color: black;" href='finance.html'>Контакты</a></li>
-                <li class="menuBlock"><a style="color: black;" href='video.html'>Видео</a></li>
+                <li class="menuBlock"><a href='index.html'>О компании</a></li>
+                <li class="menuBlock"><a href='finance.html' style="color: green;">Основные финансовые показатели</a></li>
+                <li class="menuBlock"><a href='contacts.html'>Контакты</a></li>
+                <li class="menuBlock"><a href='video.html'>Видео</a></li>
             </ul>
         </div>
-        <script>menuCheck('menuSelect')</script>
+        
+        <div class="finBlock">
+            Капитализация в первом квартале 2023 года: <b>296 млрд руб</b>
+        </div>
+
+        <div class="finBlock">
+            Акционерный капитал компании состоит из <b>850 000 000 обыкновенных акций</b></b>
+        </div>
+
+        <table class="finTable">
+            <td colspan="4" style="text-align: center; margin-bottom: 5px;"><b>Цены акций компании за апрель 2023 года</b></td>
+            <tr>
+                <th>Дата</th>
+                <th>Bid </th>
+            </tr>
+            <tr>
+                <td>28.04.2023</td>
+                <td>352,50 </td>
+            </tr>
+            <tr>
+                <td>27.04.2023</td>
+                <td>358,00 </td>
+            </tr>
+            <tr>
+                <td>26.04.2023</td>
+                <td>362,10 </td>
+            </tr>
+            <tr>
+                <td>25.04.2023</td>
+                <td>362,40 </td>
+            </tr>
+            <tr>
+                <td>24.04.2023</td>
+                <td>365,20 </td>
+            </tr>
+            <tr>
+                <td>21.04.2023</td>
+                <td>358,60 </td>
+            </tr>
+            <tr>
+                <td>20.04.2023</td>
+                <td>358,60 </td>
+            </tr>
+            <tr>
+                <td>19.04.2023</td>
+                <td>360,40 </td>
+            </tr>
+            <tr>
+                <td>18.04.2023</td>
+                <td>362,00 </td>
+            </tr>
+            <tr>
+                <td>17.04.2023</td>
+                <td>359,30 </td>
+            </tr>
+            <tr>
+                <td>14.04.2023</td>
+                <td>356,10 </td>
+            </tr>
+            <tr>
+                <td>13.04.2023</td>
+                <td>359,10 </td>
+            </tr>
+            <tr>
+                <td>12.04.2023</td>
+                <td>358,10 </td>
+            </tr>
+            <tr>
+                <td>11.04.2023</td>
+                <td>352,20 </td>
+            </tr>
+            <tr>
+                <td>10.04.2023</td>
+                <td>355,10 </td>
+            </tr>
+            <tr>
+                <td>07.04.2023</td>
+                <td>353,70 </td>
+            </tr>
+            <tr>
+                <td>06.04.2023</td>
+                <td>350,90 </td>
+            </tr>
+            <tr>
+                <td>05.04.2023</td>
+                <td>353,50 </td>
+            </tr>
+            <tr>
+                <td>04.04.2023</td>
+                <td>349,70 </td>
+            </tr>
+        </table>
+        
+        <div class="finBlock" style="display: inline-block;" onclick="countMax()" id="maxBlock">
+            Максимальная цена
+        </div>
+
     </main>
 
     <footer>
-
+        &copy; Fix Price, 2023 Все права защищены
     </footer>
 </body>
 </html>
